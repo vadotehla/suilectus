@@ -1,0 +1,33 @@
+menu {
+  height: 100%;
+  width: 300px;
+}
+menu {
+  background-color: #0f0f0f;
+  padding: 30px;
+}
+menu > nav {
+  height: max-content;
+  width: 100%;
+}
+menu > nav > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: none;
+}
+menu > nav > ul > a {
+  background-color: #1f1f1f;
+  border: 1px solid #6a6a6a;
+  border-radius: 12px;
+  padding: 12px;
+  transition: transform 0.25s ease;
+  width: 100%;
+}
+menu > nav > ul > a:hover {
+  cursor: pointer;
+  transform: translateX(5px) translateY(-5px);
+}
+menu > nav > ul > a.current {
+  background-color: #4b73ae2f;
+}

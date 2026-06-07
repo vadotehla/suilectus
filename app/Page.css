@@ -1,0 +1,23 @@
+main {
+  height: 100%;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+main {
+  align-items: start;
+  justify-content: center;
+}
+
+main > article {
+  height: 100%;
+  width: 50vw;
+}
+main > article {
+  background-color: #0f0f0f;
+}
